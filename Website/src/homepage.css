@@ -1,0 +1,191 @@
+.bg{
+  width: 100%;
+  height: 700px;
+  background-color: #000000;
+  background-image: url(../img/BlueTrain.jpg);
+  background-size: 100%;
+}
+.heading{
+  text-align: left;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.heading h1{
+  color: #ffffff;
+  margin: 100px 50px 20px 80px;
+}
+
+.heading h4{
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  margin: 10px 400px 20px 80px;
+}
+
+.heading button{
+  font-size: 20px;
+  margin: 10px 50px 20px 80px;
+  width: 250px;
+  height: 80px;
+}
+
+.heading h4{
+  text-transform:none
+}
+
+.box_top{
+  background-color: #686a6c;
+  padding: 80px;
+}
+.box_top_item{
+  display: flex;
+  justify-content: space-between;
+}
+.boxitem{
+  width: 31%;
+  background-color: #d6d6d6;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  color: #000 !important;
+  text-align: center;
+}
+.boxitem h3{
+  color: #242424;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+
+.boxitem p{
+  color: #000;
+  text-align: left;
+  font-size: 18px;
+  font-family: "OpenSans-Regular";
+  padding: 0px 20px;
+  letter-spacing: 0.03em;
+}
+
+.boxitem i{
+  font-size: 50px;
+  margin: 10px;
+  color: #242424;
+}
+
+.box_bottom{
+  padding: 70px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.box_bottom img{
+  width: 600px;
+  height: 500px;
+  margin-top: 50px;
+}
+
+.box_bootom_text{
+  margin-left: 40px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.box_bootom_text h1{
+  font-size: 42px;
+  line-height: 50px;
+  color: #96cde8;
+  margin: 5px 0px;
+}
+
+.box_bootom_text h3{
+  color: #a6a4a4;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  margin: 0px;
+}
+
+.box_bootom_text p{
+  text-align: left;
+  color: #D6D6D6;
+  font-size: 18px;
+  font-family: "OpenSans-Regular", sans-serif;
+  letter-spacing: 0.03em;
+  line-height: 25px;
+}
+
+.box_bootom_text ul li{
+  list-style: none;
+  background-image: url("../img/checkmark.svg");
+  background-repeat: no-repeat;
+  padding-left: 50px;
+  margin: 10px 0px;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  font-family: "Poppins-Regular", sans-serif;
+}
+
+.box_bootom_text ul{
+  margin-top: 0px;
+}
+
+.booto{
+  display: flex; 
+  justify-content: space-between;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.booto p{
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  font-family: "Poppins-Regular", sans-serif;
+  color: #D6D6D6;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.booto_text_b{
+  text-align: center;
+}
+
+.myimg_list_flex img{
+  width: 15%;
+}
+
+.myimg_list #buttons{
+  margin-right: 200px;
+  margin-left: 200px;
+}
+
+#CTA1, #CTA2{
+  justify-content: center;
+  font-size: 20px;
+  width: 350px;
+  margin: 50px 30px 30px 30px;
+}
+
+.mybtn{
+  background-color:#757575 ;
+  font-size: 16px;
+}
+.myimg_list{
+  padding: 80px 120px;
+  background-color: #686a6c;
+
+}
+.myimg_list_flex{
+  display: flex;
+  justify-content: space-between;
+}
+.myimg_list button{
+  width: 300px;
+  height: 70px;
+  font-size: 18px;
+  margin: 80px 150px;
+  margin-bottom: 0;
+}
+
+.myimg_list img{
+  width: 15%;
+}

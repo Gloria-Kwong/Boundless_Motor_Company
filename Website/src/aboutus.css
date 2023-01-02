@@ -1,0 +1,120 @@
+.heading{
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 80px;
+    background-image: url("../img/COMMINGSOON.jpg");
+    background-size: 90% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1{
+    color: #87CEEB;
+    margin-top: 12px;
+}
+.heading button{
+    font-size: 20px;
+}
+
+.heading h3{
+    color:#B0B0B0;
+    line-height: 27px;
+    text-align: center;
+}
+
+.heading .details{
+    letter-spacing: 0.05em;
+    color: #e5e5e5;
+    text-transform: none;
+    font-weight: 100;
+}
+
+.middle{
+    background-color: #767575;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 380px;
+}
+.iconbox{
+    background-color: white;
+    padding:32px;
+}
+.iconbox h3{
+    color:Black;
+    font-weight: 900;
+    font-size: 35px;
+    margin: 0px;
+    border: 0px;
+
+}
+.box2{
+    display: flex;
+    align-items: center;
+    padding: 80px 0px;
+    height: 200px;
+    width: 655px;
+    font-family: Poppins;
+    font-size: 55px;
+    font-weight: 900;
+    line-height: 83px;
+    letter-spacing: 0.07em;
+    text-align: left;
+}
+blockquote{
+    height: 200px;
+    color:white;
+    font-family: "Poppins-EtraBold", sans-serif;
+    font-size: 56px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin: 20px 50px 20px 0px;
+}
+.box1{
+    padding: 70px 110px;
+}
+
+.box1 i{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.grids{
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.grid img{
+    width: 100%;
+    height: auto;
+}
+.grid{
+    background-color: #2D2D2D;
+}
+.bio{
+    text-align: center;
+    margin: 10px 0px 20px 0px;
+}
+.bio h4{
+    margin: 0px;
+    color: #767575;
+}
+
+.bot{
+    margin-bottom: 100px;
+}
+
+.bot h3{
+    color: #767575;
+    margin-top: 150px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.bio h3{
+    color: white;
+    margin:5px 0px 0px 0px;
+}
+
+.heading button{
+    width:auto;
+}

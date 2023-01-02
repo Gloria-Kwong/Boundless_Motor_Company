@@ -1,0 +1,118 @@
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url("../font/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url("../font/OpenSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: OpenSans-ExtraBold;
+    src: url("../font/OpenSans-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url("../font/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: Poppins-Bold;
+    src: url("../font/Poppins-Bold.ttf");
+}
+
+@font-face {
+    font-family: Poppins-ExtraBold;
+    src: url("../font/Poppins-ExtraBold.ttf");
+}
+
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: #767575;
+    font-family: "Poppins-Regular";
+    font-size: 20px;
+    letter-spacing: 0.1em;
+}
+h1{
+    font-family: "OpenSans-ExtraBold", sans-serif;
+    font-size: 56px;
+    color:white;
+    letter-spacing: 0.07em;
+}
+h2{
+    font-family: "Poppins-EtraBold", sans-serif;
+    font-size: 45px;
+    color:white;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+h3{
+    font-family: "Poppins-Bold", sans-serif;
+    font-size: 24px;
+    color:white;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+h4{
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 18px;
+    color:white;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+button{
+    font-family: "OpenSans-Bold", sans-serif;
+    font-size: 36px;
+    color:white;
+    text-transform: uppercase;
+    background-color: #1B03A3;
+    border:none;
+    padding:10px 20px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 8px;
+    width: 145px;
+    margin: 5px 15px 50px 0px;
+    letter-spacing: 0.1em;
+}
+
+button:hover {
+    background-color: white;
+    color: #1B03A3;
+  }
+
+
+a:link{
+    color: #767575;
+    text-decoration: none;
+}
+a:visited{
+    color: #767575;
+}
+a:hover{
+    color: white;
+    text-decoration: underline;
+}
+a:active{
+    color: white;
+}
+header,footer,.content{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    margin:auto;
+    width:1280px;
+}
+input:focus{
+    outline: none;
+}

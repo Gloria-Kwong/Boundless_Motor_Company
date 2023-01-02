@@ -1,0 +1,77 @@
+.topFooter{
+    background-color: #1a1717;
+    padding: 20px 50px 20px 50px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content:space-between;
+    margin: 20px 40px 20px 40px;
+  }
+  
+  .topFooter p, .topFooter li, .topFooter span{
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    font-family: "Poppins-Regular", sans-serif;
+    color: #D6D6D6;
+  }
+  
+  .foot_item{
+    width: 30%;
+  }
+  
+  .foot_item i{
+    color: #D6D6D6;
+    font-size: 30px;
+  }
+  
+  .foot_item h3{
+   color: #96cde8;
+  }
+  .foot_item ul li{
+    list-style-type: none;
+    line-height: 35px;
+  }
+  
+  .foot_item a:visited{
+    color: white
+  }
+  
+  .topFooter #info{
+    margin-right: -100px;
+  }
+  
+  .topFooter #nav{
+    margin-left: 250px;
+  }
+  
+  .topFooter #contact i{
+    line-height: 20px;
+    font-size: 20px;
+  }
+  
+  .myinput{
+    width: 350px;
+    height: 50px;
+    background-color: #535151;
+    font-size: 18px;
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 30px 0;
+    color: #d6d6d6;
+  }
+  
+  .subscribe{
+    font-size: 20px;
+    width: auto;
+  }
+  
+  .foot_item .copyright{
+    color: #96cde8;
+    font-size: 16px;
+    letter-spacing: 0em;
+    margin-top: 140px;
+  }
+
+  .spaceBar{
+    background-color: #535151;
+  }
